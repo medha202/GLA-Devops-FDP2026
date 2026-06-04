@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/USERNAME/REPOSITORY.git'
+                url: 'https://github.com/medha202/GLA-Devops-FDP2026.git'
             }
         }
 
